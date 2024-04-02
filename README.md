@@ -6,13 +6,19 @@
 
 Python's package manager, pip is essential for installing packages and related applications. 
 
-### If you're on Windows
-1. Download the most recent version of Python from the following [link](https://www.python.org/downloads/)
+### Windows/MacOS Setup
+1. Download the most recent version of Python for either [Windows](https://www.python.org/downloads/) or [Mac](https://www.python.org/downloads/macos/)
 2. Upon opening the install wizard, ensure that under "optional features" that, "pip" is checked
    ![pythoninstall](https://github.com/Okanagan-iGEM/drylab-2024-training/assets/77037153/459cfb4e-51a7-471d-8c4f-c324860c4245)
 
+   For those running MacOS, similarly go through each step in the installation file and pip should be included
+
+
 3. Open the command prompt by running "cmd" after pressing ```Windows + R``` together.   
 ![cmdrun](https://github.com/Okanagan-iGEM/drylab-2024-training/assets/77037153/50dcbf64-91b3-4ea5-a68b-5b766c6ea7c0)
+
+   For MacOS, type ```terminal``` in the search window
+   
 4. Double check that pip has successfully been installed by running the following command
    ```
    >pip --version
